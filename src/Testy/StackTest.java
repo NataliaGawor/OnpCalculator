@@ -83,7 +83,7 @@ public class StackTest {
         assertSame("Not null object!", nullEl, stack.pop());
     }
 
-    @Test // POPACZ CZY MA SENS
+    @Test
     public void testRunAfterException(){
         try{
             stack.pop();

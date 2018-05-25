@@ -97,7 +97,8 @@ public class Zamiana
 
 			System.out.println("ONP : " + onp);
 		}
-		return onp;
+		if(onp.equals("")) return "no input data";
+		else return onp;
 
 	}
 }

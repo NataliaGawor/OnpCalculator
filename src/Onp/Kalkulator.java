@@ -2,7 +2,7 @@ package Onp;
 
 public class Kalkulator
 {
-	public static void KalkulatorONP(String str)
+	public static double KalkulatorONP(String str)
 	{
 
 		String help = "";
@@ -56,5 +56,6 @@ public class Kalkulator
 
 		}
 		System.out.println( stack[0]);
+		return stack[0];
 		}
 }
